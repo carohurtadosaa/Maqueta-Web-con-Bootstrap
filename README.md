@@ -92,40 +92,50 @@ Todos los archivos usan el mismo `navbar`. Debe tener los siguientes enlaces en 
 
 #### Email:
 
+```
 <div class="mb-3">
   <label for="inputEmail" class="form-label">Correo electrónico</label>
   <input type="email" class="form-control" id="inputEmail" placeholder="nombre@ejemplo.com" required>
 </div>
-
+```
 
 #### Contraseña:
 
+```
 <div class="mb-3">
   <label for="inputPassword" class="form-label">Contraseña</label>
   <input type="password" class="form-control" id="inputPassword" placeholder="••••••••" required>
 </div>
-
+```
 
 #### Checkbox "Recodarme":
 
+```
 <div class="form-check mb-3">
   <input class="form-check-input" type="checkbox" id="rememberMe">
   <label class="form-check-label" for="rememberMe">
     Recordarme
   </label>
 </div>
+```
 
 #### Fondo con clase `bg-light`, borde redondeado y sombra (`shadow`):
 
+```
 <div class="bg-light p-5 rounded shadow" style="width: 100%; max-width: 400px;">
+```
 
 #### Tema de colores: **gris claro (`bg-light`) y azul (`btn-primary`)**:
 
+```
 <button type="submit" class="btn btn-primary">Ingresar</button>
+```
 
 #### Incluir ícono decorativo relacionado al acceso:
 
+```
 <i class="bi bi-person-circle fs-1 text-primary"></i>
+```
 
 ---
 
