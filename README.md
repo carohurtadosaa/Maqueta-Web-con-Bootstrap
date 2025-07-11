@@ -297,12 +297,30 @@ Todos los archivos usan el mismo `navbar`. Debe tener los siguientes enlaces en 
 ```
 ---
 
-### 👥 Grupo 5 – `sesion2.html` (Galería de proyectos)
+### 👥 Grupo 5 – `sesion2.html`
 
-- Tres tarjetas con imagen, título y descripción.
-- Imágenes libres de proyectos ficticios.
-- Cada tarjeta en columna (`col-12 col-md-4`) y dentro de `container`.
-- Tema de colores: **neutro con acento en azul**.
+- Tres tarjetas con estructura de galería:
+  - Imagen ilustrativa del proyecto
+  - Título del proyecto
+  - Descripción detallada
+- Cada tarjeta está dentro de una columna responsiva (`col-12 col-md-4`), organizada en una fila (`row`) dentro de un `container`.
+- Tema de colores: **neutro con acento en azul (`bg-primary`)**.
+- Tipografía clara (`text-white`) para mantener contraste visual y legibilidad.
+- Las imágenes utilizadas son de proyectos ficticios, obtenidas de fuentes visuales libres como Pinterest.
+
+#### ✅ Estructura de tarjeta:
+
+```html
+<div class="col-12 col-md-4">
+  <div class="card bg-primary h-100" style="width: 18rem;">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body text-white">
+      <h5 class="card-title">Título del Proyecto</h5>
+      <p class="card-text">Descripción del proyecto...</p>
+    </div>
+  </div>
+</div>
+```
 
 ---
 
