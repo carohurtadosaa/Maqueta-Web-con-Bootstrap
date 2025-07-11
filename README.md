@@ -339,7 +339,71 @@ Todos los archivos usan el mismo `navbar`. Debe tener los siguientes enlaces en 
 - Botón principal (`btn-primary`).
 - Tema visual: **formal, con layout centrado y balanceado**.
 
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupo 7 - Sección4</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">MaquetaWeb</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+                    <li class="nav-item"><a class="nav-link" href="register.html">Register</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sesion1.html">Sesión 1</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sesion2.html">Sesión 2</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sesion3.html">Sesión 3</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sesion4.html">Sesión 4</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5 d-flex justify-content-center">
+        <form class="bg-light rounded p-4 shadow" style="width: 100%; max-width: 500px;">
+
+            <h2 class="text-center">Contáctanos</h2>
+            
+            <div class="formulario mt-3 mb-3">
+                <label for="inputNombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="inputNombre" placeholder="Tu nombre">
+            </div>
+
+            <div class="formulario mt-3 mb-3">
+                <label for="inputCorreo" class="form-label">Correo</label>
+                <input type="email" class="form-control" id="inputCorreo" placeholder="nombre@example.com">
+            </div>
+
+            <div class="formulario mt-3 mb-3">
+                <label for="textareaMensaje" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="textareaMensaje" rows="3" placeholder="Escribe tu mensaje aquí..."></textarea>
+            </div>
+
+            <div class="d-grid">
+                <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+            </div>
+
+        </form>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-3">
+        Todos los derechos reservados - 2025
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
 
 ## ⚠️ Advertencia Final
 
