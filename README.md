@@ -151,6 +151,77 @@ Todos los archivos usan el mismo `navbar`. Debe tener los siguientes enlaces en 
 - Tema de colores: **verde (`btn-success`) y blanco**.
 - Puedes agregar íconos relacionados a creación de cuenta.
 
+#### Nombre completo
+
+```html
+<div class="mb-3">
+  <label for="fullName" class="form-label">Nombre completo</label>
+  <input type="text" class="form-control" id="fullName" required>
+</div>
+```
+
+#### Email
+
+```html
+  <label for="email" class="form-label">Correo electrónico</label>
+  <input type="email" class="form-control" id="email" required>
+```
+
+#### Contraseña
+
+```html
+<label for="password" class="form-label">Contraseña</label>
+<input type="password" class="form-control" id="password" required>
+```
+
+#### Repetir contraseña
+
+```html
+<label for="confirmPassword" class="form-label">Repetir contraseña</label>
+<input type="password" class="form-control" id="confirmPassword" required>
+```
+
+#### Checkbox de aceptación de términos
+
+```html
+<div class="form-check mb-3">
+  <input type="checkbox" class="form-check-input" id="terms" required>
+  <label class="form-check-label" for="terms">Acepto los términos y condiciones</label>
+</div>                   
+```
+
+#### Estilo profesional: usa `card`, `mb-3`, `form-control`.
+
+```html
+/* Ejemplo de uso de estilo */
+<div class="card-body">
+  <h3 class="card-title text-center mb-4">
+      <i class="bi bi-person-plus-fill text-success"></i> Formulario de Registro
+  </h3>
+
+<form>
+  <div class="mb-3">
+      <label for="fullName" class="form-label">Nombre completo</label>
+      <input type="text" class="form-control" id="fullName" required>
+</div>
+
+```
+
+#### Tema de colores: **verde (`btn-success`) y blanco**.
+
+```html
+<button type="submit" class="btn btn-success">
+  <i class="bi bi-check-circle-fill"></i> Registrarse
+</button>
+```
+
+### Incluir íconos relacionados a creación de cuenta.
+
+```html
+<i class="bi bi-person-plus-fill text-success"></i>
+<i class="bi bi-check-circle-fill"></i>
+```
+
 ---
 
 ### 👥 Grupo 4 – `sesion1.html` (Introducción)
