@@ -271,6 +271,76 @@ Todos los archivos usan el mismo `navbar`. Debe tener los siguientes enlaces en 
 - Cada tarjeta debe tener botón “Leer más”.
 - Tema de colores: **azul (`btn-outline-primary`) y blanco**.
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grupo 4 - Sección1</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">MaquetaWeb</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+        <li class="nav-item"><a class="nav-link" href="register.html">Register</a></li>
+        <li class="nav-item"><a class="nav-link" href="sesion1.html">Sesión 1</a></li>
+        <li class="nav-item"><a class="nav-link" href="sesion2.html">Sesión 2</a></li>
+        <li class="nav-item"><a class="nav-link" href="sesion3.html">Sesión 3</a></li>
+        <li class="nav-item"><a class="nav-link" href="sesion4.html">Sesión 4</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</header>
+<body>
+<div class="card-group4">
+  <div class="card">
+    <img src="https://static.vecteezy.com/system/resources/thumbnails/001/416/705/small_2x/html5-emblem-orange-shield-and-white-text-vector.jpg" class="card-img-top" alt="IMAGEN HTML">
+    <div class="card-body">
+      <h5 class="card-title">¿Qué es HTML?</h5>
+      <p class="card-text">Significa HyperText Markup Language (Lenguaje de Marcado de Hipertexto), es el código estándar para crear páginas web. Funciona estructurando el contenido (texto, imágenes, videos, etc.) y organizando cómo se muestra en el navegador. HTML no es un lenguaje de programación en sí, sino un lenguaje de marcado que define la estructura de la información. </p>
+      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+      <button type="button" class="btn btn-outline-primary">Leer más</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" class="card-img-top" alt="IMAGEN CSS">
+    <div class="card-body">
+      <h5 class="card-title">¿Qué es CSS?</h5>
+      <p class="card-text">CSS3 es la última versión del lenguaje Cascading Style Sheets (Hojas de estilo en cascada), y se utiliza para definir la presentación visual de documentos HTML y XML, separando el contenido del diseño. Es un estándar web que, junto con HTML5 y JavaScript, permite crear experiencias web interactivas y atractivas.</p>
+      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+      <button type="button" class="btn btn-outline-primary">Leer más</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://logowik.com/content/uploads/images/bootstrap-new725.logowik.com.webp" class="card-img-top" alt="IMAGEN BOOTSTRAP">
+    <div class="card-body">
+      <h5 class="card-title">¿Qué es Bootstrap?</h5>
+      <p class="card-text">Es un framework de desarrollo web gratuito y de código abierto. Está diseñado para facilitar el proceso de desarrollo de los sitios web responsivos y orientados a los dispositivos móviles, proporcionando una colección de sintaxis para diseños de plantillas.</p>
+      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+      <button type="button" class="btn btn-outline-primary">Leer más</button>
+    </div>
+  </div>
+</div>
+
+
+</body>
+
+<div>
+  <footer class="bg-dark text-white text-center py-3">
+    Todos los derechos reservados - 2025
+
+  </footer>
+</div>
+</html>
+
 ---
 
 ### 👥 Grupo 5 – `sesion2.html` (Galería de proyectos)
