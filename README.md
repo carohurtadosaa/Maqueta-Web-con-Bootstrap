@@ -103,19 +103,7 @@ Todos los archivos usan el mismo `navbar`. Debe tener los siguientes enlaces en 
 *Nota: recuerda que la imagen debe estar descargada en la misma carpeta de tu archivo index.html, sino, ésta no se visualizará.*
 
 
-
-
-
-
-
-
-
 ---
-
-
-
-
-
 
 
 ### 👥 Grupo 2 – `login.html`
@@ -271,34 +259,7 @@ Todos los archivos usan el mismo `navbar`. Debe tener los siguientes enlaces en 
 - Cada tarjeta debe tener botón “Leer más”.
 - Tema de colores: **azul (`btn-outline-primary`) y blanco**.
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Grupo 4 - Sección1</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
-</head>
-<header>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container">
-    <a class="navbar-brand" href="#">MaquetaWeb</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
-        <li class="nav-item"><a class="nav-link" href="register.html">Register</a></li>
-        <li class="nav-item"><a class="nav-link" href="sesion1.html">Sesión 1</a></li>
-        <li class="nav-item"><a class="nav-link" href="sesion2.html">Sesión 2</a></li>
-        <li class="nav-item"><a class="nav-link" href="sesion3.html">Sesión 3</a></li>
-        <li class="nav-item"><a class="nav-link" href="sesion4.html">Sesión 4</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-</header>
+```html
 <body>
 <div class="card-group4">
   <div class="card">
@@ -333,14 +294,7 @@ Todos los archivos usan el mismo `navbar`. Debe tener los siguientes enlaces en 
 
 </body>
 
-<div>
-  <footer class="bg-dark text-white text-center py-3">
-    Todos los derechos reservados - 2025
-
-  </footer>
-</div>
-</html>
-
+```
 ---
 
 ### 👥 Grupo 5 – `sesion2.html` (Galería de proyectos)
