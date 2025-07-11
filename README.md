@@ -292,8 +292,8 @@ Todos los archivos usan el mismo `navbar`. Debe tener los siguientes enlaces en 
 - Fondo blanco y container con márgenes (`mt-4`).
 - Tema de colores: **gris (`table-secondary`) y blanco**.
 
----
 
+```html
   <div class="container mt-4">
 
     <table class="table table-striped table-secondary">
@@ -327,6 +327,7 @@ Todos los archivos usan el mismo `navbar`. Debe tener los siguientes enlaces en 
       </tbody>
     </table>
   </div>
+```
 
 ### 👥 Grupo 7 – `sesion4.html` (Formulario de contacto)
 
