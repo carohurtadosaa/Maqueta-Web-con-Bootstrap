@@ -79,6 +79,44 @@ Todos los archivos usan el mismo `navbar`. Debe tener los siguientes enlaces en 
 - Tema de colores: **Primario (`bg-primary`), blanco y gris claro (`bg-light`)**.
 - Solo deben insertar los contenidos del resto de los grupos dentro del `body`.
 
+#### Aquí encontramos tres elementos: sección principal con bienvenida, encabezado grande y subtítulo, y tema de colores; **Primario (`bg-primary`), blanco y gris claro (`bg-light`)**.
+
+```html
+<section class="bg-primary text-white text-center py-5">
+    <div class="container">
+      <h1 class="display-4">Bienvenida a Maqueta Web</h1>
+      <p class="lead">Diseñando experiencias digitales con creatividad y precisión</p>
+    </div>
+</section>
+```
+
+#### Imagen de fondo o decorativa estilo "landing":
+
+```html
+<section class="bg-light py-5">
+    <div class="container">
+      <img src="https://static.vecteezy.com/system/resources/previews/025/450/730/original/abstract-blue-background-with-lines-for-business-free-vector.jpg" alt="Diseño inspirador" class="img-fluid rounded mx-auto d-block">
+    </div>
+</section>
+```
+
+*Nota: recuerda que la imagen debe estar descargada en la misma carpeta de tu archivo index.html, sino, ésta no se visualizará.*
+
+
+
+
+
+
+
+
+
+---
+
+
+
+
+
+
 
 ### 👥 Grupo 2 – `login.html`
 
