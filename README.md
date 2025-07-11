@@ -294,6 +294,40 @@ Todos los archivos usan el mismo `navbar`. Debe tener los siguientes enlaces en 
 
 ---
 
+  <div class="container mt-4">
+
+    <table class="table table-striped table-secondary">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Nombre</th>
+          <th scope="col">Correo</th>
+          <th scope="col">Rol</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Mark</td>
+          <td>@mdo</td>
+          <td>FrontEnd</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Jacob</td>
+          <td>@fat</td>
+          <td>Backend</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>John</td>
+          <td>@social</td>
+          <td>ProductOwner</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
 ### 👥 Grupo 7 – `sesion4.html` (Formulario de contacto)
 
 - Formulario con:
